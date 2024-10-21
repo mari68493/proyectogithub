@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Prevents Abuse</title>
+		<link rel="stylesheet" href="contactos.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Linea de apoyo</span>
+							<span class="number">322-509-08-81</span>
+						</div>
+					</div>
+
+					<div class="container-logo">
+						<h1 class="logo"><a href="/">Prevents Abuse</a></h1>
+					</div>
+
+					<div class="container-user">
+						<a href="login_form.php">
+							<i class="fa-solid fa-user"></i>
+						</a>
+						<a href="servicios.html">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</a>
+						<div class="content-shopping-cart">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars btnMenu"></i>
+					<ul class="menu">
+						<li><a href="index.html">Principal</a></li>
+						<li><a href="contactos.html">Contactos</a></li>
+						<li><a href="multimedia.html">Multimedia</a></li>
+					</ul>
+
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
+
+		<section class="banner">
+			<div class="content-banner">
+			</div>
+			<div class="card">
+				<div class="face front">
+						<img src="img/1.jpg" alt="">
+						<h3>Mariana Ortiz Ortiz</h3>
+				</div>
+				<div class="face back">
+						<a href=""></a><h3>Soy</h3>
+						<p>Una persona con espiritu lider con conocimientos amplios en HTML, CSS Y JS.  </p>
+						<div class="link">
+								<a href="#mari" >Más info</a>
+						</div>
+				</div>
+		</div>
+	
+		<div class="card">
+				<div class="face front">
+						<img src="img/3.jpg" alt="">
+						<h3>Estefania Muñoz Pareja</h3>
+				</div>
+				<div class="face back">
+						<h3>Soy</h3>
+						<p>Una persona con espiritu lider con conocimientos amplios en HTML, CSS Y JS.</p>
+						<div class="link">
+								<a href="#tefy">Más info</a>
+						</div>
+				</div>
+		</div>
+	
+		<div class="card">
+				<div class="face front">
+						<img src="img/5.jpg" alt="">
+						<h3>Nicole Molina</h3>
+				</div>
+				<div class="face back">
+						<h3>Soy</h3>
+						<p>Una persona con espiritu lider con conocimientos amplios en HTML, CSS Y JS.</p>
+						<div class="link">
+								<a href="#nico">Más info</a>
+						</div>
+				</div>
+		</div>
+		</section>
+
+		<br><br>
+
+	    </div>
+		<div id="vision" class="container-content1">
+			<article>
+				<center><h1>¿QUIÉNES SOMOS?</h1></center>
+
+				<p>Somos un grupo de personas comprometidas con la idea de generar un impacto positivo en nuestra comunidad. Nuestro equipo está conformado por individuos con diversas habilidades y perspectivas, pero con un objetivo común: promover el bienestar y la protección de los más vulnerables. Creemos firmemente que el trabajo en equipo es la clave para enfrentar grandes desafíos, y por eso hemos unido esfuerzos para abordar un tema de suma importancia. </p>
+
+				<p>El problema que hemos identificado no puede ser ignorado: muchas personas, especialmente niños y otros grupos en riesgo, sufren situaciones que comprometen su seguridad y bienestar. Estas situaciones, como el maltrato infantil, la negligencia o el abuso, suelen pasar desapercibidas o no reciben la atención que merecen. Por eso decidimos enfocarnos en esta problemática. No solo queremos visibilizarla, sino también proponer soluciones y fomentar la colaboración para proteger a quienes no siempre tienen una voz. </p>
+					
+			    <p>Trabajamos en conjunto, aprovechando nuestras diferentes fortalezas, para investigar, educar y crear conciencia sobre este tema. Creemos que, como equipo, podemos marcar la diferencia. La suma de nuestras ideas, esfuerzos y dedicación nos permite generar propuestas más integrales y alcanzar un impacto más amplio. Estamos convencidos de que, unidos, podemos contribuir a construir un entorno más seguro, justo y empático para todos. </p>
+				<br>
+				<section class="container2">
+					<div class="slider-wrapperr">
+					  <div class="slider" id="slider">
+						<img id="slide-1" src="img/caso1.jpg" alt="Slide 1"  height="400px" width="400px"/>
+						<img id="slide-2" src="img/caso10.avif" alt="Slide 2" height="400px" width="400px" />
+						<img id="slide-3" src="img/caso11.jpg" alt="Slide 3" height="400px" width="400px"/>
+					  </div>
+					  <div class="slider-navv">
+						<a href="#slide-1" onclick="goToSlide(0)"></a>
+						<a href="#slide-2" onclick="goToSlide(1)"></a>
+						<a href="#slide-3" onclick="goToSlide(2)"></a>
+					  </div>
+					</div>
+				  </section>
+				  
+				  <script>
+					const slides = document.querySelectorAll('.slider img');
+					const navLinks = document.querySelectorAll('.slider-navv a');
+					let currentSlide = 0;
+					let slideInterval;
+				  
+					function showSlide(index) {
+					  slides.forEach((slide, i) => {
+						slide.style.display = (i === index) ? 'block' : 'none';
+					  });
+					  navLinks.forEach((link, i) => {
+						link.classList.toggle('active', i === index);
+					  });
+					}
+				  
+					function nextSlide() {
+					  currentSlide = (currentSlide + 1) % slides.length;
+					  showSlide(currentSlide);
+					}
+				  
+					function goToSlide(index) {
+					  currentSlide = index;
+					  showSlide(currentSlide);
+					  resetInterval(); // Resetear el intervalo cuando se hace clic en un botón
+					}
+				  
+					function resetInterval() {
+					  clearInterval(slideInterval);
+					  slideInterval = setInterval(nextSlide, 3000); // Reinicia el intervalo
+					}
+				  
+					// Mostrar la primera imagen
+					showSlide(currentSlide);
+				  
+					// Cambiar de imagen cada 3 segundos
+					slideInterval = setInterval(nextSlide, 3000);
+				  </script>
+				</section>
+				
+
+				<br><br><br>
+				<center><h1>INTEGRANTES</h1></center>
+				<section class="integrantes">
+					<div id="mari" class="articles">
+					  <div class="content-wrapper">
+						<div class="text">
+						  <h2>Mariana Ortiz Ortiz</h2>
+						  <p>Soy una estudiante que posee valores beneficiosos para mi grupo de trabajo, como lo es la solidaridad y el liderazgo. </p>
+						  <p>Mi visión es poder ayudar a las demás personas, brindando medios sustentables y de fácil entendimiento para ellos. </p>
+						  <p>Destaco al poseer una increible creatividad que sirve para en muchas veces ser una persona audaz y capaz de realizar actividades comunes y simples a un lugar lleno de armonia.</p>
+						</div>
+						<div class="image">
+						  <img src="img/n2.jpg" alt="Imagen de Mariana" />
+						</div>
+					  </div>
+					</div>
+				  <br><br><br>
+					<div class="articles">
+					  <div class="content-wrapper">
+						<div class="image">
+							<img src="img/n6.jpg" alt="Imagen de Estefania" />
+						</div>
+						<div id="tefy" class="text">
+						  <h2>Estefania Muñoz Pareja</h2>
+						  <p>Soy una estudiante que posee valores beneficiosos para mi grupo de trabajo, como lo es la solidaridad y el liderazgo. </p>
+						  <p>Mi visión es poder ayudar a las demás personas, brindando medios sustentables y de fácil entendimiento para ellos. </p>
+						  <p>Destaco al poseer una increible creatividad que sirve para en muchas veces ser una persona audaz y capaz de realizar actividades comunes y simples a un lugar lleno de armonia.</p>
+						</div>
+
+					  </div>
+					</div>
+					<br><br><br>
+
+					<div class="content-wrapper">
+						<div id="nico" class="text">
+						  <h2>Nicole Molina</h2>
+						  <p>Soy una persona bastante amable, humilde y que le gusta mucho trabajar en equipo. Aporto conocimiento nivel básico académico hacia mis compañeros de clases </p>
+						  <p>Mi visión en la vida es lograr alcanzar lo inalcanzable, lo que nunca pense que lograría. Respecto a la app web, queremos disminur el maltrato infantil, procurando que estos infantes, convivan en un mejor entorno
+						  </p>
+						  <p>Destaco en amplia creatividad, desarrollando una mente más abierta y dispuesta a adquirir más conocimiento.</p>
+						</div>
+						<div class="image">
+						  <img src="img/foto1.jpeg" alt="Imagen de Nicole" />
+						</div>
+					</div>
+					<br><br><br>
+					<center><h1>VISIÓN DE LA APP</h1></center>
+					<p>Es un sistema de informacion sobre el abuso infantil para disminuir el mismo, esta dirigido a los educadores y docentes, para que puedan presentarle esta herramienta a los niños y adolescentes, tiene como fin buscar la concientización en los jóvenes de diferentes instituciones donde se presente un alto nivel de problemas interpersonales en los niños para disminuir la falta de educación en dicho tema. Se llama Prevents Abuse y beneficiará a los más pequeños y brindará a los docentes una herramienta didáctica de uso constante para tratar este tema a diferencia de otras herramientas relacionadas esta reunirá muchas en una sola para hacer su uso más entretenido.
+				   </p>
+				   <p>En Brasil, se estima que un niño es víctima de abuso sexual cada 15 minutos, y en Argentina, el abuso infantil afecta aproximadamente al 20% de los niños.</p>
+					<br><br>
+					<img src="img/logo.png" style="width: 300px;" alt="" width="200px" height="250px">
+					<center><h1>IDENTIFICACIÓN DEL PROBLEMA</h1></center>
+					<p>El maltrato infantil es un problema tan grave que afecta a muchos niños en todo el mundo, la falta de consciencia sobre este tema, la falta de recursos para ayudar a las familias en situaciones difíciles y la necesidad de crear entornos seguros y protectores para los niños son aspectos clave a considerar, es importante abordar este problema con interés y necesidad, ya que afecta el bienestar emocional, fisico y psicologico de los niños, y puede tener repercusiones a lo largo de toda su vida. Es crucial educar a la sociedad sobre la importancia de detectar, prevenir y denunciar el maltrato infantil, asi como proporcionar apoyo a las familias para romper el ciclo de abuso y saber que hacer en este momento de crisis.
+					</p>
+					<img src="img/n1.webp" alt="" width="700px" height="500px">
+					<br><br>
+					<center><h1>INFORMACIÓN ESPECIFICA</h1></center>
+
+				<section class="questions__container">
+					<article class="questions__padding">
+						<div class="questions__answer">
+							<h3 class="questions__title">¿Qué hacer en caso de que sufra algún tipo de maltrato infantil?
+								<span class="questions__arrow">
+									<img src="img/arrow.svg" class="questions__img">
+								</span>
+							</h3>
+		
+							<p class="questions__show">En caso de sospechar maltrato infantil, es crucial actuar con rapidez. Primero, escucha al niño sin presionarlo y evita juzgarlo. Luego, contacta a las autoridades o servicios de protección infantil locales para informar la situación. No intentes confrontar al presunto agresor. Mantén la calma y, si es posible, brinda al niño un entorno seguro mientras las autoridades intervienen. El bienestar del menor es la prioridad.</p>
+						</div>
+					</article>
+					<article class="questions__padding">
+						<div class="questions__answer">
+							<h3 class="questions__title">¿Por qué decidimos escoger este tema?
+								<span class="questions__arrow">
+									<img src="img/arrow.svg" class="questions__img">
+								</span>
+							</h3>
+		
+							<p class="questions__show">Decidimos escoger este tema porque creemos que es fundamental velar por el bienestar de los demás, especialmente de aquellos que se encuentran en situaciones de vulnerabilidad. Consideramos que crear conciencia sobre este asunto no solo ayuda a identificar y prevenir problemas, sino que también contribuye a construir una sociedad más segura y solidaria. Nuestro objetivo es aportar con información y herramientas que promuevan la empatía y la acción, buscando siempre mejorar la calidad de vida y proteger a quienes más lo necesitan.</p>
+						</div>
+					</article>
+		
+					<article class="questions__padding">
+						<div class="questions__answer">
+							<h3 class="questions__title">¿Cuál es nuestro objetivo?
+								<span class="questions__arrow">
+									<img src="img/arrow.svg" class="questions__img">
+								</span>
+							</h3>
+		
+							<p class="questions__show">Analizar los problemas encontrados en jóvenes sobre el maltrato infantil y por medio de esto enfocarnos en brindarles múltiples herramientas para identificarlo y contrarrestar ese tipo de abusos.</p>
+						</div>
+					</article>
+				</section>
+			</article> 
+		</div>
+		<br><br>
+
+
+		
+
+      </article>
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>Lineas de atención:</li> <li> 322-509-0881</li>
+							<li>324-551-69-44</li>
+							<li>301-821-94-04</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<a href="https://www.facebook.com/zoe.palacioortiz?mibextid=ZbWKwL">
+								<i class="fa-brands fa-facebook-f"></i></a>
+							</span>
+							<span class="twitter">
+								<a href="https://x.com/YirethCadavid?t=-2jhOri9duK_XXocGy3noA&s=09">
+								<i class="fa-brands fa-twitter"></i></a>
+							</span>
+							<span class="youtube">
+								<a href="https://youtube.com/@cohetedefisica?si=TE2x_AZllx4RojLI">
+								<i class="fa-brands fa-youtube"></i></a>
+							</span>
+
+							<span class="instagram">
+								<a href="https://www.instagram.com/arymaoz?igsh=aGRpdWw0Y3RzNm45">
+								<i class="fa-brands fa-instagram"></i></a>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+							<ul>
+								<li><a href="contactos.html">Acerca de Nosotros</a></li>
+								<li><a href="servicios.html">Servicios</a></li>
+								<li><a href="politicas.html">Politicas de Privacidad</a></li>
+								<li><a href="terminos.html">Términos y condiciones</a></li>
+							</ul>
+							<br>
+							<br>
+							<ul>
+								<li>© 2024 Prevents Abuse</li>
+							</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">correos</p>
+
+						<ul>
+							<li>mariana.ortizo3366@gmail.com</li>
+							<li>estefaniamunoz952@gmail.com</li>
+							<li>nicoleyireth2008@gamil.com</li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Slogan del proyecto</p>
+
+						<div class="content">
+							<p>
+								"los niños son el molde y nosotros los pasteleros"
+                           </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<script>
+
+			const btnMenu = document.querySelector(".btnMenu")
+			btnMenu.addEventListener("click", (e)=>{
+				e.target.nextElementSibling.classList.toggle("active")
+			})
+		</script>
+		<script src="question.js"></script>
+	</body>
+</html>

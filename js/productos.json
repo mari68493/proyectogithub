@@ -1,0 +1,172 @@
+[
+    {
+        "id": "Curs-01",
+        "titulo": "Abuso Psicologico",
+        "imagen": "./img/orientacion/psico.png",
+        "categoria": {
+            "nombre": "Orientación",
+            "id": "orientacion"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "Curs-02",
+        "titulo": "Abuso Fisico",
+        "imagen": "./img/orientacion/fisico.png",
+        "categoria": {
+            "nombre": "Orientación",
+            "id": "orientacion"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "Curs-03",
+        "titulo": "Abuso Sexual",
+        "imagen": "./img/orientacion/sexual.png",
+        "categoria": {
+            "nombre": "Orientación",
+            "id": "orientacion"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "Curs-04",
+        "titulo": "Violencia Intrafamiliar",
+        "imagen": "./img/orientacion/familiar.png",
+        "categoria": {
+            "nombre": "Orientación",
+            "id": "orientacion"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "Curs-05",
+        "titulo": "Bullying",
+        "imagen": "./img/orientacion/bullying.png",
+        "categoria": {
+            "nombre": "Orientación",
+            "id": "orientacion"
+        },
+        "precio": 50000
+    },
+    {
+        "id": "Cur-01",
+        "titulo": "Inteligencia Interpersonal",
+        "imagen": "./img/desarrollo/interpersonal.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-02",
+        "titulo": "Inteligencia Intrapersonal",
+        "imagen": "./img/desarrollo/intrapersonal.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-03",
+        "titulo": "Inteligencia Musical",
+        "imagen": "./img/desarrollo/musical.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-04",
+        "titulo": "Inteligencia Lingüistica",
+        "imagen": "./img/desarrollo/linguistica.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-05",
+        "titulo": "Inteligencia lógica",
+        "imagen": "./img/desarrollo/logica.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-06",
+        "titulo": "Inteligencia Naturalista",
+        "imagen": "./img/desarrollo/natural.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-07",
+        "titulo": "Inteligencia Espacial",
+        "imagen": "./img/desarrollo/espacial.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Cur-08",
+        "titulo": "Inteligencia Kinestésica",
+        "imagen": "./img/desarrollo/cinetica.png",
+        "categoria": {
+            "nombre": "Desarrollo",
+            "id": "desarrollo"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "Curso-01",
+        "titulo": "Edición adultos mayores",
+        "imagen": "./img/ediciones/mayores.png",
+        "categoria": {
+            "nombre": "Ediciones",
+            "id": "ediciones"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "Curso-02",
+        "titulo": "Edición docentes",
+        "imagen": "./img/ediciones/profes.png",
+        "categoria": {
+            "nombre": "Ediciones",
+            "id": "ediciones"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "Curso-03",
+        "titulo": "Edición padres",
+        "imagen": "./img/ediciones/padres.png",
+        "categoria": {
+            "nombre": "Ediciones",
+            "id": "ediciones"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "Curso-04",
+        "titulo": "Edición adolescentes",
+        "imagen": "./img/ediciones/adolescentes.png",
+        "categoria": {
+            "nombre": "Ediciones",
+            "id": "ediciones"
+        },
+        "precio": 15000
+    }
+]
